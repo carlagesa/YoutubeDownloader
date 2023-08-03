@@ -58,28 +58,6 @@
                     {% endfor %}
                 </tr>
             </table>
-
-            <!-- <p class="file_type h3 text-center mt-5 mb-5">Audio Only</p>
-            <table class="table mt-5 mb-5">
-                <thead class="thead-light">
-                <tr>
-                    <th scope="col">File Size</th>
-                    <th scope="col">Extension</th>
-                    <th scope="col">Download</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for stream in stream_audio %}
-                    <tr>
-                        <td>{{ stream.file_size }}</td>
-                        <td>{{ stream.extension }}</td>
-                        <td><a href="{{ stream.video_url }}" style="text-decoration: none;"
-                               download="{{ title }}.{{ extension }}" target="_blank">Download <i
-                                class=" fa fa-download"></i></a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table> -->
         </div>
     {% endif %}
 {% endblock %}

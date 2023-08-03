@@ -10,11 +10,11 @@ html, body {
     background-size: cover;
     padding-bottom: 200px
 }
-.btn:hover
+/* .btn:hover
 {
 background:#654321;
 opacity:0.3;
-}
+} */
 a:hover
 {
 opacity:0.5;
@@ -55,7 +55,19 @@ p {
     font-family: 'Gotham Bold';
     padding: 15px 20px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+
+.content > form > input[type="submit"]:hover{
+    color: aliceblue;
+    background: #960FF2;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Gotham Bold';
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 8px;
     margin-top: 2%;
 }
 
